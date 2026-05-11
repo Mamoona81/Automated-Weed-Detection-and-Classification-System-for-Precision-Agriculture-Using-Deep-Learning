@@ -6,7 +6,7 @@ Short guide and reproduction instructions for the Weeds dataset and training exp
 
 ## Quick Links
 - **Dataset export:** [README.roboflow.txt](README.roboflow.txt#L1)
-- **Training script:** [yolo_training.py](yolo_training.py#L1)
+- **Training script:** [yolo_training.py](yolo_training.py#L1) , train_multiple_algorithem.py script which gives comparison of yolov8 family and CNN
 - **Data config:** [data.yaml](data.yaml#L1)
 - **Experiment runs:** [experimentResults](experimentResults)
 - **Algorithm comparison:** [algorithmResults/algorithm_comparison.json](algorithmResults/algorithm_comparison.json)
