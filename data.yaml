@@ -1,0 +1,14 @@
+train: D:\Master Folder\Documents List\projects\weedsdata\train\images
+val: D:\Master Folder\Documents List\projects\weedsdata\valid\images
+test: D:\Master Folder\Documents List\projects\weedsdata\test\images
+
+
+nc: 5
+names: ['0', '1', '2', '3', '4']
+
+roboflow:
+  workspace: viswanathan-rwkwz
+  project: automated-system-for-spraying-herbicides-on-weeds-using-drone
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/viswanathan-rwkwz/automated-system-for-spraying-herbicides-on-weeds-using-drone/dataset/1
