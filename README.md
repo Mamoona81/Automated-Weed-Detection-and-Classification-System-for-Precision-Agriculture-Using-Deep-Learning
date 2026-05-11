@@ -1,6 +1,8 @@
 # WeedsData — Drone-based Weed Detection (YOLOv8)
 
 Short guide and reproduction instructions for the Weeds dataset and training experiments.
+<img width="1920" height="1920" alt="train_batch2" src="https://github.com/user-attachments/assets/d2c6d1fd-6dbc-4ff0-a9d7-6050d85a6bfc" />
+<img width="1920" height="1920" alt="train_batch0" src="https://github.com/user-attachments/assets/6576eb5d-0fac-463b-903e-38b12e1b2ec6" />
 
 ## Quick Links
 - **Dataset export:** [README.roboflow.txt](README.roboflow.txt#L1)
