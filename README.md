@@ -63,6 +63,24 @@ Outputs and visualizations will be saved by the `ultralytics` library into the r
 - Experiment runs are stored under [experimentResults](experimentResults) and other experiment folders (e.g., `experimentResults2`, `experimentResults3`). Each run may include an `args.yaml` and `weights/` subfolder.
 - Summary comparisons and evaluation outputs are available at [algorithmResults/algorithm_comparison.json](algorithmResults/algorithm_comparison.json) and under [algorithmResults](algorithmResults).
 
+### Best Model: YOLOv8s
+```
+Training Epochs: 10
+mAP50:     0.751
+mAP50-95:  0.529
+Precision: 0.743
+Recall:    0.706
+FPS:       28 (real-time)
+```
+
+### Per-Class Performance
+- **Broadleaf Weeds:** 0.78 mAP50 (Best)
+- **Invasive Vines:** 0.74 mAP50
+- **Sedge Species:** 0.75 mAP50
+- **Grassy Weeds:** 0.71 mAP50 (Most challenging)
+- **Other Vegetation:** 0.68 mAP50
+
+
 ## Repository Structure (key files)
 - `data.yaml` — dataset paths and class names ([data.yaml](data.yaml#L1))
 - `yolo_training.py` — sample training script ([yolo_training.py](yolo_training.py#L1))
