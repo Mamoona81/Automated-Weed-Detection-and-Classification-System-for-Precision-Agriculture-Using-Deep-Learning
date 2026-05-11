@@ -89,6 +89,7 @@ FPS:       28 (real-time)
 - `experimentResults*/` — training run outputs and weights
 - `algorithmResults/` — aggregated results and comparisons
 
+Important Note: added Faster R-CNN in train_multiple_algorithms.py but could not compare performance as I had Limited GPU resources.
 ## Reproducibility notes
 - Many training experiments include an `args.yaml` file in their run folder. Use those values to reproduce a specific run.
 - If you move or rename directories, ensure `data.yaml` paths are updated accordingly.
